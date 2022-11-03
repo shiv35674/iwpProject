@@ -26,27 +26,27 @@ session_start();
 	<script type="text/javascript" src="js/bootstrap.js"></script>
     
     <style type="text/css">
-    html { 
-  background: url(images/13.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
+    body{ 
+  background-color: alice; 
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
   }
     </style>
 </head>
 
 
-<body class="login">
+<body class="login" style="background-color:#f1f1f2;">
     
-	<div class="header-area"> 
+<div class="header-area" style="margin:auto;"> 
 		<div class="header-top"> 
-			<div class="container"> 
-                <a href="#"><img src="img/admin.png" style="max-height: 5%;max-width: 5%;margin-left: 50%;opacity:1.0;"></a>
-				<div class="menu col-md-5" style="margin-left: 20%;margin-top: 2%"> 
+			<div class="container" style="display:flex;"> 
+                <a href="#"><img src="img/admin.png" style="max-height: 60px;max-width: 60px;margin-left: 50%;opacity:1.0;"></a>
+				<div class="home" style="margin-left: auto;margin-right:25px;margin-top: 1.5%;"> 
 					<ul class="list-unstyled list-inline pull-right">
-						<li><a href="adminhome.php">Home</a></li>
-						<li><a href="logout.php">Logout</a></li>
+						<li><a href="#"><span style="font-size:15px;background:#4cb5f5;border-radius:55px;">Home</span></a></li>
+						<li><a href="index.php"><span style="font-size:15px;background:#4cb5f5;border-radius:55px;">Logout</span></a></li>
 						
 					</ul>
 				</div>
@@ -62,21 +62,22 @@ session_start();
 		
 		
 		
-		<div class="login"> 
-			<form class="col-md-4 col-sm-offset-4 text-center">
+		<div class="login" style="margin-left:18%;margin-right:20%"> 
+			<form class="text-center">
             <h2>Admin Panel - Order Details</h2>
-			  <table style="background:white;border:1px solid black;" class="text-center">
+            <hr style="border-top: 1px solid black;">
+			  <table class="table table-striped text-center">
                 <thead>
-                    <tr style="padding-left: 10px;">
-                        <th style="border:1px solid black">Order ID</th>
-                        <th style="border:1px solid black">Medicine Name</th>
-                        <th style="border:1px solid black">Medicine Quantity</th>
-                        <th style="border:1px solid black">Medicine Price</th>
-                        <th style="border:1px solid black">Total Price</th>
-                        <th style="border:1px solid black">Customer Name</th>
-                        <th style="border:1px solid black">Customer Mobile</th>
-                        <th style="border:1px solid black">Customer Address</th>
-                        <th style="border:1px solid black">Customer Region</th>
+                    <tr class="table-info">
+                        <th >Order ID</th>
+                        <th >Medicine Name</th>
+                        <th >Medicine Quantity</th>
+                        <th >Medicine Price</th>
+                        <th >Total Price</th>
+                        <th >Customer Name</th>
+                        <th >Customer Mobile</th>
+                        <th >Customer Address</th>
+                        <th >Customer Region</th>
                     </tr>
                 </thead>
                 <tbody>

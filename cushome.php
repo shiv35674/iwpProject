@@ -25,10 +25,11 @@ session_start();
 	<script type="text/javascript" src="js/modernizr.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
+	
 </head>
 
 
-<body class="cushome">
+<body class="">
     <div class="header-area"> 
 		<div class="header-top"> 
 			<div class="container"> 
@@ -52,35 +53,36 @@ session_start();
 		
 		
 		<div class="login">
-		<div class="cushome" > 
+		<div class="" > 
 		<div class="chome"> 
 			<div class="cus-top text-center"> 
 				<div class="container"> 
-					<h2 style="margin-left: 7%">Patient's Panel</h2>
+					<h2 style="margin-left: 38%;width:30%;">Patient's Panel</h2>
 				</div>
 			</div>
-			<div class="cus-bottom" style="margin-top: 5%"> 
+			<hr style="border-top: 1px solid black;width:540px;">
+			<div class="cus-bottom" style="margin-top: 5%; margin-left:5%"> 
 				<div class="container" style="padding-bottom:150px;"> 
 					<div class="img-row1">
-					<div class="img col-md-3" style="margin: 2%;background-color: #e3e8ef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.9;filter: alpha(opacity=60);text-align: center;margin-left: 5%;padding-top: 2%;padding-bottom: 2%;box-shadow: 5px 10px #989ba0;margin-top: 4%">
+					<div class="img5 col-md-3 cus-card" style="margin: 2%;border: 1px #e3e8ef;border-radius: 5%; opacity:0.9;filter: alpha(opacity=60);text-align: center;margin-left: 5%;padding-top: 2%;padding-bottom: 2%;box-shadow: 0px 0px 10px #989ba0;margin-top: 4%">
 					<a href="cart/index.php"><img src="img/Creative-Tail-medicine.svg.png" alt="" style="max-height: 35%;max-width: 35%"></a> 
 					<br>
 					<br>
-                    <label style="margin-left: 2%">Browse Medicine</label>
+                    <label style="margin-left: 2%;">Browse Medicine</label>
 					</div>
-					<div class="img col-md-3" style="margin: 2%;background-color: #e3e8ef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.6;filter: alpha(opacity=60);text-align: center;margin-left: 5%;padding-top: 2%;padding-bottom: 2%;box-shadow: 5px 10px #989ba0;margin-top: 4%"><a href="cusfindphar.php"><img src="img/aesulapian-staff-308760_640.png" alt="" style="max-height: 29%;max-width: 29%;margin-left: 12%"></a>
+					<div class="img5 col-md-3 cus-card" style="margin: 2%;border: 1px #e3e8ef;border-radius: 5%; opacity:0.6;filter: alpha(opacity=60);text-align: center;margin-left: 5%;padding-top: 2%;padding-bottom: 2%;box-shadow: 0px 0px 10px #989ba0;margin-top: 4%"><a href="cusfindphar.php"><img src="img/aesulapian-staff-308760_640.png" alt="" style="max-height: 29%;max-width: 29%;margin-left: 1%"></a>
 					<br>
-					<label style="margin-left: 14%">Find Pharmacy</label>
+					<label style="margin-left: 1%">Find Pharmacy</label>
 					</div>
-					<div class="img col-md-3" style="margin: 2%;background-color: #e3e8ef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.6;filter: alpha(opacity=60);text-align: center;margin-left: 5%;padding-top: 2%;padding-bottom: 2%;box-shadow: 5px 10px #989ba0;margin-top: 4%"><a href="cusfindambulence.php"><img src="img/ambulance.png" alt=""  style="max-height: 70%;max-width: 70%"></a>
+					<div class="img5 col-md-3 cus-card" style="margin: 2%;border: 1px #e3e8ef;border-radius: 5%; opacity:0.6;filter: alpha(opacity=60);text-align: center;margin-left: 5%;padding-top: 2%;padding-bottom: 2%;box-shadow: 0px 0px 10px #989ba0;margin-top: 4%"><a href="cusfindambulence.php"><img src="img/ambulance.png" alt=""  style="max-height: 70%;max-width: 70%"></a>
 					<br>
                     <br>
                         <label style="margin-left: 15%;margin-top: 2%">Find Ambulance</label>
 					</div>
-					<div class="img col-md-3" style="margin: 2%;background-color: #e3e8ef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.6;filter: alpha(opacity=60);text-align: center;margin-left: 37%;padding-top: 2%;padding-bottom: 2%;box-shadow: 5px 10px #989ba0;margin-top: 4%"><a href="qrScanner\index.html"><img src="img\searchicon.ico" alt=""  style="max-height: 35%;max-width: 35%"></a>
+					<div class="img5 col-md-3 cus-card" style="margin: 2%;border: 1px #e3e8ef;border-radius: 5%; opacity:0.6;filter: alpha(opacity=60);text-align: center;margin-left: 37%;padding-top: 2%;padding-bottom: 2%;box-shadow: 0px 0px 10px #989ba0;margin-top: 4%"><a href="qrScanner\index.html"><img src="img\searchicon.ico" alt=""  style="max-height: 35%;max-width: 35%"></a>
 					<br>
                     <br>
-                        <label style="margin-left: 15%;margin-top: 2%">Browse a medicine using Barcode</label>
+                        <label style="margin-left: 1%;margin-top: 2%">Browse a medicine using Barcode</label>
 					</div>
 					</div>
 					

@@ -27,7 +27,7 @@
     
     <style type="text/css">
     html { 
-  background: url(images/13.jpg) no-repeat center center fixed; 
+  background: url() no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -39,23 +39,23 @@
 
 <body class="login">
 
-    <div class="header-area">
-        <div class="header-top">
-            <div class="container">
-                <a href="#"><img src="img/admin.png" style="max-height: 5%;max-width: 5%;margin-left: 50%;opacity:1.0;"></a>
-                <div class="menu col-md-5" style="margin-left: 20%;margin-top: 2%">
-                    <ul class="list-unstyled list-inline pull-right">
-                        <li><a href="adminhome.php">Home</a></li>
-						<li><a href="logout.php">Logout</a></li>
-
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-
-    </div>
+<div class="header-area" style="margin:auto;"> 
+		<div class="header-top"> 
+			<div class="" style="display:flex;"> 
+                <a href="#"><img src="img/admin.png" style="max-height: 60px;max-width: 60px;margin-left: 50%;opacity:1.0;"></a>
+				<div class="home" style="margin-left: auto;margin-right:25px;margin-top: 1.5%;"> 
+					<ul class="list-unstyled list-inline pull-right">
+						<li><a href="#"><span style="font-size:15px;background:#4cb5f5;border-radius:55px;">Home</span></a></li>
+						<li><a href="index.php"><span style="font-size:15px;background:#4cb5f5;border-radius:55px;">Logout</span></a></li>
+						
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+	</div>
 
     <div class="main-area">
 

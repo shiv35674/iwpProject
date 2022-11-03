@@ -31,7 +31,7 @@ session_start();
     
     <style type="text/css">
     html { 
-  background: url(images/13.jpg) no-repeat center center fixed; 
+  background: url() no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -43,44 +43,50 @@ session_start();
 
 <body class="login">
 
-    <div class="header-area">
-        <div class="header-top">
-            <div class="container">
-                <a href="#"><img src="img/admin.png" style="max-height: 5%;max-width: 5%;margin-left: 50%;opacity:1.0;"></a>
-                <div class="menu col-md-5" style="margin-left: 20%;margin-top: 2%">
-                    <ul class="list-unstyled list-inline pull-right">
-                        <li><a href="adminhome.php">Home</a></li>
-						<li><a href="logout.php">Logout</a></li>
-
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-
-    </div>
+<div class="header-area" style="margin:auto;"> 
+		<div class="header-top"> 
+			<div class="" style="display:flex;"> 
+                <a href="#"><img src="img/admin.png" style="max-height: 60px;max-width: 60px;margin-left: 50%;opacity:1.0;"></a>
+				<div class="home" style="margin-left: auto;margin-right:25px;margin-top: 1.5%;"> 
+					<ul class="list-unstyled list-inline pull-right">
+						<li><a href="#"><span style="font-size:15px;background:#4cb5f5;border-radius:55px;">Home</span></a></li>
+						<li><a href="index.php"><span style="font-size:15px;background:#4cb5f5;border-radius:55px;">Logout</span></a></li>
+						
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+	</div>
 
     <div class="main-area">
 
 
 
 
-        <div class="login">
-            <form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;background-color: #e3e8ef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.6;filter: alpha(opacity=60);text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;box-shadow: 5px 10px #989ba0;">
-                <h2>Admin Panel - List of Users</h2>
+        <div class="login" style="margin-right:20%">
+            <form class="col-md-6 col-sm-offset-4 text-center">
+                <h2 style="color:black;"><b>Admin Panel - List of Users</b></h2>
 
                 <br>
                 <br>
-                
-                <table style="background:white;border:1px solid black;" class="text-center">
+                <!-- <style>
+                    tr,td{
+                        background-color:white;
+                        color:black;
+                        border: 1px solid black;
+                    }
+                </style> -->
+                <table class="table table-stripped text-center">
                 <thead>
-                    <tr style="padding-left: 10px;">
-                        <th style="border:1px solid black">Customer ID</th>
-                        <th style="border:1px solid black">Customer Name</th>
-                        <th style="border:1px solid black">Customer Email</th>
-                        <th style="border:1px solid black">Customer Mobile</th>
-                        <th style="border:1px solid black">Customer Address</th>
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Customer Name</th>
+                        <th>Customer Email</th>
+                        <th>Customer Mobile</th>
+                        <th>Customer Address</th>
                     </tr>
                 </thead>
                 <tbody>

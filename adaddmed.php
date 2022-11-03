@@ -26,36 +26,35 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     
     <style type="text/css">
-    html { 
-  background: url(images/13.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  }
+    /* body{
+      background-image: url("img/bg4.jpg");
+      background-height:100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    } */
     </style>
 </head>
 
 
 <body class="login">
 
-    <div class="header-area">
-        <div class="header-top">
-            <div class="container">
-                <a href="3"><img src="img/admin.png" style="max-height: 5%;max-width: 5%;margin-left: 50%;opacity:1.0;"></a>
-                <div class="menu col-md-5" style="margin-left: 20%;margin-top: 2%">
-                    <ul class="list-unstyled list-inline pull-right">
-                        <li><a href="adminhome.php">Home</a></li>
-						<li><a href="logout.php">Logout</a></li>
-
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-
-    </div>
+    <div class="header-area" style="margin:auto;"> 
+		<div class="header-top"> 
+			<div class="" style="display:flex;"> 
+                <a href="#"><img src="img/admin.png" style="max-height: 60px;max-width: 60px;margin-left: 50%;opacity:1.0;"></a>
+				<div class="menu" style="margin-left: auto;margin-right:25px;margin-top: 1.5%;"> 
+					<ul class="list-unstyled list-inline pull-right">
+						<li><a href="#"><span style="font-size:25px;background-color:#a1d6e2;padding:10px;border-radius:15px;color:black;">Home</span></a></li>
+						<li><a href="index.php"><span style="font-size:25px;background-color:#a1d6e2;padding:10px;border-radius:15px;color:black;">Logout</span></a></li>
+						
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+	</div>
 
     <div class="main-area">
 
@@ -65,9 +64,10 @@
         <div class="login">
             
                 
-                <div class=""> 
-			<form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;background-color: #e3e8ef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.9;filter: alpha(opacity=60);text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;box-shadow: 5px 10px #989ba0;" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" >
+                <div class="" style="margin-top:48px"> 
+			<form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;background-color: #97caef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.9;filter: alpha(opacity=60);text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;box-shadow: 0px 0px 10px #989ba0;" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" >
                 <h2>Admin Panel - Add Medicine</h2>
+                <hr style="border-top: 1px solid black;">
 			  <div class="form-group center">
 				<label for="user" style="font-weight: bold;color: #000000;">Name:</label>
 				<input type="text" class="form-control" id="user" name="mname" style="width:50%;margin-left: 24%" required>

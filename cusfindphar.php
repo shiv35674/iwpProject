@@ -39,7 +39,7 @@ session_start();
         <div class="header-top">
             <div class="container">
                 <a href="cupanel.php"><img src="img/client-1295901_960_720.png" style="max-height: 5%;max-width: 5%;margin-left: 50%;opacity:1.0;"></a>
-                <label class="text-center" style="margin-left:51%;"><?php echo $_SESSION["uname"];?></label> 
+                <label class="text-center" style="margin-left:50%;"><?php echo $_SESSION["uname"];?></label> 
                 <div class="menu col-md-5" style="margin-left: 20%;margin-top: 2%">
                     <ul class="list-unstyled list-inline pull-right">
                         <li><a href="cushome.php">Home</a></li>
@@ -62,7 +62,7 @@ session_start();
 
         <div class="">
             <h2 class="text-center">Patient's Panel - Find Pharmacy</h2>
-                <br>
+                <hr style="border-top: 1px solid black;width:550px;">
 <!--                <label style="margin-left:40px;">User Name<br><?php echo $_SESSION["uname"];?></label>-->
 
                 <br>

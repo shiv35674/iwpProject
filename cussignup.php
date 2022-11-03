@@ -59,7 +59,7 @@
 			  </div>
 			  <div class="form-group">
 				<label for="mbl" style="font-weight: bold;color: #000000;">Mobile:</label>
-				<input type="text" class="form-control" id="mbl" pattern="[0-1]{2}[0-9]{9}" name="umobile" style="width:50%;margin-left: 24%" required>
+				<input type="text" class="form-control" id="mbl" name="umobile" style="width:50%;margin-left: 24%" required>
 			  </div>
 			  <div class="form-group">
 				<label for="adrs" style="font-weight: bold;color: #000000;">Address:</label>

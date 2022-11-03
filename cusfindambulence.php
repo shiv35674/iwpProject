@@ -35,7 +35,7 @@ session_start();
 
 <body class="cusfamb">
 
-    <div class="">
+    <div class="header-area" style="margin:auto;">
         <div class="header-top">
             <div class="container">
                 <a href="cupanel.php"><img src="img/client-1295901_960_720.png" style="max-height: 5%;max-width: 5%;margin-left: 50%;opacity:1.0;"></a>
@@ -63,8 +63,7 @@ session_start();
         <div class="">
             <form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;" method="post" action=cusfindambulence2.php >
                 <h2>Patient's Panel - Find Ambulence</h2>
-
-                <br>
+                <hr style="border-top: 1px solid black;">
                
 
                 <br>
@@ -80,9 +79,9 @@ session_start();
     
 		
 		<div class="result_table" style="margin-left: 2%;text-align: center">
-            <table style="background:white;border:1px solid black;margin: 15px;" class="text-center">
+            <table style="background:white;border:1px solid black;margin: 15px;" class="table table-striped text-center">
                 <thead>
-                    <tr>
+                    <tr class="table-info">
                         <th style="border:1px solid black">Hospital Name</th>
                         <th style="border:1px solid black">Region</th>
                         <th style="border:1px solid black">Hospital Address</th>

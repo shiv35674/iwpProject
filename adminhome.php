@@ -25,18 +25,24 @@
 	<script type="text/javascript" src="js/modernizr.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<style>
+		body{
+		background:linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url("img/bg3.jpg");
+		background-size: cover;
+		}
+	</style>
 </head>
 
 
-<body class="cushome">
-    <div class="header-area"> 
+<body class="" >
+    <div class="header-area" style="margin:auto;"> 
 		<div class="header-top"> 
-			<div class="container"> 
-                <a href="#"><img src="img/admin.png" style="max-height: 5%;max-width: 5%;margin-left: 50%;opacity:1.0;"></a>
-				<div class="menu col-md-5" style="margin-left: 20%;margin-top: 2%"> 
+			<div class="" style="display:flex;"> 
+                <a href="#"><img src="img/admin.png" style="max-height: 60px;max-width: 60px;margin-left: 50%;opacity:1.0;"></a>
+				<div class="menu" style="margin-left: auto;margin-right:25px;margin-top: 1.5%;"> 
 					<ul class="list-unstyled list-inline pull-right">
-						<li><a href="#">Home</a></li>
-						<li><a href="index.php">Logout</a></li>
+						<li><a href="#"><span style="font-size:25px;background-color:#a1d6e2;padding:10px;border-radius:15px;color:black;">Home</span></a></li>
+						<li><a href="index.php"><span style="font-size:25px;background-color:#a1d6e2;padding:10px;border-radius:15px;color:black;">Logout</span></a></li>
 						
 					</ul>
 				</div>
@@ -51,21 +57,22 @@
 		
 		
 		<div class="">
-		<div class="cushome" > 
+		<div class=""> 
 		<div class="chome"> 
 			<div class="cus-top text-center"> 
 				<div class="container"> 
-					<h2 style="margin-left: 7%">Admin Panel</h2>
+					<h1 style="margin-left: 5%;font-weight: bold;font-size:45px;">Admin Panel</h1>
+					<hr style="border-top: 1px solid black;">
 				</div>
 			</div>
-			<div class="cus-bottom" style="margin-top: 5%"> 
+			<div class="cus-bottom" style="margin-top:3%;border:3px solid black;margin-top:25px;padding:50px;margin-left:60px;margin-right:60px;margin-bottom:55px;box-shadow:0 0 5px"> 
 				<div class="portfolio"> 
 			<div class="port-top text-center"> 
 				
 			</div>
 			<div class="port-bottom"> 
 				<div class="container"> 
-					<div class="img-row1" style="margin-bottom: 20px;">
+					<div class="img-row1" style="margin-bottom: 20px;margin-top:20px;">
 					<div class="img col-md-4"><a href="adod.php"><img src="1.png" style="max-height: 100%;max-width: 100%;margin-bottom: 15px;" alt="" /></a></div>
 					<div class="img col-md-4"><a href="adsearchuser.php"><img src="2.png" style="max-height: 100%;max-width: 100%;margin-bottom: 15px;" alt="" /></a></div>
 					<div class="img col-md-4"><a href="addelidetails.php"><img src="3.png" style="max-height: 100%;max-width: 100%;margin-bottom: 15px;" alt="" /></a></div>

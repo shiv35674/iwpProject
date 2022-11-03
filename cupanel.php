@@ -25,15 +25,6 @@ session_start();
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
     
-    <style type="text/css">
-    html { 
-  background: url(images/13.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  }
-    </style>
 </head>
 
 

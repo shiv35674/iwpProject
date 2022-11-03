@@ -91,7 +91,7 @@
 		
 	</div>
 	
-	<div id="container">
+	<div id="container" style="padding:20px;">
 
 		<div id="main">
 			
@@ -99,7 +99,7 @@
 
 		</div><!--end of main-->
 		
-		<div id="sidebar">
+		<div id="sidebar" style="padding:20px;">
 			<h1>Cart</h1>
 			<?php
 			
