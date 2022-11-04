@@ -114,7 +114,7 @@ nav.circle ul li a:hover:after {
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="images/19.jpeg" alt="Los Angeles" style="width:100%;">
+        <img src="images/20.jpg" alt="" style="width:100%;">
           <div class="carousel-caption">
           <h3 style="color:#312B35">Medicine Guide</h3>
           <p style="color: #312B35;">For your health care!!</p>
@@ -130,10 +130,10 @@ nav.circle ul li a:hover:after {
       </div>
     
       <div class="item">
-        <img src="images/23.jpg" alt="New york" style="width: 100%;">
+        <img src="images/17.jpg" alt="New york" style="width: 100%;">
           <div class="carousel-caption">
-          <h3>Call Ambulence</h3>
-          <p>Call Ambulence of Any Hospital !!</p>
+          <h3>Call Ambulance</h3>
+          <p>Call Ambulance of Any Hospital !!</p>
         </div>
       </div>
     </div>

@@ -24,16 +24,16 @@
 </head>
 
 
-<body class="brwsmdcn">
+<body class="">
 	<div class="container2" style="display:flex;justify-content:space-between;margin-bottom:50px;"> 
 				<!-- //class="logo col-md-3" -->
         
 					<h1 style="padding:3px;color: black;margin: 15px 30px;font-weight:bold;">MediCare</h1>
 				
           <!-- //class="menu col-md-7"  -->
-					<ul class=" list-inline pull-right" style="margin-top:30px;justify-content:space-between;margin-right:30px;">
-						<li><a href="pharsignup.php" style="color:black;">Pharmacy SignUp</a></li>
-						<li><a href="login.php" style="color:black;">Login</a></li>
+					<ul class=" list-inline pull-right" style="margin-top:30px;justify-content:space-between;margin-right:55px;">
+						<li><a href="pharsignup.php" style="color:black;font-size:25px;margin-right:15px;">Pharmacy SignUp</a></li>
+						<li><a href="login.php" style="color:black;font-size:25px;">Login</a></li>
 						
 					</ul>
 				</div>
@@ -44,7 +44,7 @@
 		
 		
 		<div class=""> 
-			<form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;background-color: #e3e8ef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.9;filter: alpha(opacity=60);text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;box-shadow: 5px 10px #989ba0;margin-top: 4%" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" >
+			<form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;background-color: #97caef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.9;filter: alpha(opacity=60);text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;box-shadow: 0px 0px 10px #989ba0;margin-top: 4%" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" >
 			  <div class="form-group center">
 				<label for="user" style="font-weight: bold;color: #000000;">Username:</label>
 				<input type="text" class="form-control" id="user" name="uname" style="width:50%;margin-left: 24%" required>
@@ -69,7 +69,7 @@
 			  <button type="submit" class="btn btn-default">Sign Up!</button>
                 <br>
                 <br>
-                <a href="index.php">Go back to Login!</a>
+                <a href="index.php" style="font-weight: bold;color: black;">Go back to Login!</a>
 			</form> 
 			
 			<?php

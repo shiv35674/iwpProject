@@ -65,7 +65,7 @@ session_start();
 		<div class="login" style="margin-left:`0%">
             
 			<form class="col-md-4 col-sm-offset-4 text-center"  method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" >
-            <h2><b>Admin Panel - Delivery Guy Details</b></h2>
+            <h2><b>Delivery Guy Details</b></h2>
                 <a href="addelivery.php"><h5>Add delivery guy</h5></a>
                 <br>
 			  

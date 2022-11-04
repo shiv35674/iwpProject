@@ -24,7 +24,7 @@
 </head>
 
 
-<body class="brwsmdcn">
+<body class="">
 <div class="container2" style="display:flex;justify-content:space-between;margin-bottom:50px;"> 
 				<!-- //class="logo col-md-3" -->
         
@@ -32,8 +32,8 @@
 				
           <!-- //class="menu col-md-7"  -->
 					<ul class=" list-inline pull-right" style="margin-top:30px;justify-content:space-between;margin-right:30px;">
-						<li><a href="cussignup.php" style="color:black;">Customer SignUp</a></li>
-						<li><a href="login.php" style="color:black;">Login</a></li>
+						<li><a href="cussignup.php" style="color:black;font-size:25px;margin-right:15px;">Customer SignUp</a></li>
+						<li><a href="login.php" style="color:black;font-size:25px;">Login</a></li>
 						
 					</ul>
 				</div>
@@ -44,7 +44,7 @@
 		
 		
 		<div class=""> 
-			<form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;background-color: #e3e8ef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.9;filter: alpha(opacity=60);text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;box-shadow: 5px 10px #989ba0;" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" >
+			<form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;background-color: #97caef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.9;filter: alpha(opacity=60);text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;box-shadow: 0px 0px 10px #989ba0;" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" >
 			  <div class="form-group center">
 				<label for="user" style="font-weight: bold;color: #000000;">Pharmacy Name:</label>
 				<input type="text" class="form-control" id="user" name="phuname" style="width:50%;margin-left: 24%" required>
@@ -90,7 +90,7 @@
 	            $phMobile=$_POST["phmobile"];
 	            $phAddress=$_POST["phaddress"];
                 $selected_val = $_POST['region'];  // Storing Selected Value In Variable
-                
+                $statuses="pending";
 	            $conn=mysqli_connect("localhost","root","","medicineguide");
 	               if(!$conn){
 		              die("Connection failed: ".mysqli_connect_error);
@@ -99,7 +99,7 @@
 		              //echo "Connected successfully <br>";
 	
 	           $sql="insert into pharmacylogin(phUserName,phPassword) values('".$phName."', '".$phPassword."')";
-               $sql1="insert into pharmacy(pRegion,phMobile,phAddress,pName,pId) values('".$selected_val."', '".$phMobile."','".$phAddress."', '".$phName."', LAST_INSERT_ID())";
+               $sql1="insert into pharmacy(status,pRegion,phMobile,phAddress,pName,pId) values('".$statuses."','".$selected_val."', '".$phMobile."','".$phAddress."', '".$phName."', LAST_INSERT_ID())";
 	           $result= mysqli_query($conn,$sql)or die(mysqli_error($conn));
                $result1= mysqli_query($conn,$sql1)or die(mysqli_error($conn));
 	                   if($result && $result1){

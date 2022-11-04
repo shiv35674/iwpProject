@@ -68,7 +68,7 @@ session_start();
 
         <div class="login" style="margin-right:20%">
             <form class="col-md-6 col-sm-offset-4 text-center">
-                <h2 style="color:black;"><b>Admin Panel - List of Users</b></h2>
+                <h2 style="color:black;"><b>List of Users</b></h2>
 
                 <br>
                 <br>

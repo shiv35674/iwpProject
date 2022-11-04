@@ -81,7 +81,8 @@
 			  
 			  <button type="submit" class="btn btn-default" style="font-weight: bold;color: #000000;">Login</button>
         <br><br>
-        <a href="login1.php" style="font-weight: bold;color: black;">Login as Pharmacist</a><br>
+        <a href="login1.php" style="font-weight: bold;color: black;">Login as Admin</a><br>
+        <a href="login2.php" style="font-weight: bold;color: black;">Login as Pharmacist</a><br>
 			  <br>
 			  <label style="font-weight: bold;color: #000000;">Don't have an account? Sign Up!</label>
 			  <br>

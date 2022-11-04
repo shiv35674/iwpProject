@@ -29,18 +29,16 @@ session_start();
 </head>
 
 
-<body class="brwsmdcn">
+<body class="">
     
-<div class="header-area"> 
+<div class="header-area" style="margin:auto;"> 
 		<div class="header-top"> 
-			<div class="container">
-                
-                <a href="#"><img src="img/admin.png" style="max-height: 5%;max-width: 5%;margin-left: 50%;opacity:1.0;"></a> <br>
-                <label class="text-center" style="margin-left:51%;"><?php echo $_SESSION["uname"];?></label> 
-				<div class="menu col-md-5" style="margin-left: 20%;margin-top: 2%"> 
+			<div class="" style="display:flex;"> 
+                <a href="#"><img src="img/admin.png" style="max-height: 60px;max-width: 60px;margin-left: 50%;opacity:1.0;"></a>
+				<div class="menu" style="margin-left: auto;margin-right:25px;margin-top: 1.5%;"> 
 					<ul class="list-unstyled list-inline pull-right">
-						<li><a href="adminhome.php">Home</a></li>
-						<li><a href="logout.php">Logout</a></li>
+						<li><a href="#"><span style="font-size:25px;background-color:#a1d6e2;padding:10px;border-radius:15px;color:black;">Home</span></a></li>
+						<li><a href="index.php"><span style="font-size:25px;background-color:#a1d6e2;padding:10px;border-radius:15px;color:black;">Logout</span></a></li>
 						
 					</ul>
 				</div>
@@ -58,10 +56,11 @@ session_start();
 		<div class=""> 
 		<div class="br"> 
 			<div class="br-top text-center"> 
-				<div class="container"> 
-					<h2>Admin's Panel - Browse Medicine</h2>
+				<div class="container" style="margin-top:15px;"> 
+					<h2 style="margin-top:25px;font-weight:bold;font-size:45px;">Browse Medicine</h2>
 				</div>
 			</div>
+			<hr style="border-top: 1px solid black;width:550px">
             
 			
                 </div>
@@ -92,13 +91,14 @@ session_start();
             
             <br>
             <br>
-            <table style="background:white;border:1px solid black;" class="text-center">
+            <table style="background:white;border:1px solid black;margin-left:55px;" class="text-center">
                 <thead>
                     <tr style="padding-left: 10px;">
                         <th style="border:1px solid black">Name</th>
                         <th style="border:1px solid black">Scientefic Name</th>
                         <th style="border:1px solid black">Disease Category</th>
                         <th style="border:1px solid black">Price</th>
+						<th style="border:1px solid black">Quantity</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -114,7 +114,7 @@ session_start();
                         $resul = mysqli_query($con,"SELECT * FROM medicine;") or die("Failed to fetch".mysql_error());
                     
                     while( $row = mysqli_fetch_assoc( $resul) ){
-                                    echo "<tr><td>{$row['medName']}</td><td>{$row['scienteficName']}</td><td>{$row['diseaseCategory']}</td><td>{$row['price']}</td></tr>\n";
+                                    echo "<tr><td>{$row['medName']}</td><td>{$row['scienteficName']}</td><td>{$row['diseaseCategory']}</td><td>{$row['price']}</td><td>{$row['quantity']}</td></tr>\n";
                                         }
             
                         
