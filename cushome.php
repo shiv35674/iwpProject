@@ -65,7 +65,7 @@ session_start();
 				<div class="container" style="padding-bottom:150px;"> 
 					<div class="img-row1">
 					<div class="img5 col-md-3 cus-card" style="margin: 2%;border: 1px #e3e8ef;border-radius: 5%; opacity:0.9;filter: alpha(opacity=60);text-align: center;margin-left: 5%;padding-top: 2%;padding-bottom: 2%;box-shadow: 0px 0px 10px #989ba0;margin-top: 4%">
-					<a href="cart/index.php"><img src="img/Creative-Tail-medicine.svg.png" alt="" style="max-height: 35%;max-width: 35%"></a> 
+					<a href="ezyzip/index.php"><img src="img/Creative-Tail-medicine.svg.png" alt="" style="max-height: 35%;max-width: 35%"></a> 
 					<br>
 					<br>
                     <label style="margin-left: 2%;">Browse Medicine</label>

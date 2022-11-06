@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title> OCR DEMO</title>
+
+</head>
+
+<body>
+
+        <img id="userImage" src="8.jpg"/>       
+
+</body>
+
+<script src='https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js'></script>
+
+<script>  
+
+       var myImage= document.getElementById('userImage');
+
+       Tesseract.recognize(myImage).then(function(result){
+
+        console.log(result.text);
+
+        alert(result.text);
+
+        });
+
+        </script>
+
+</html>
