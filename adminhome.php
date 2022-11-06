@@ -84,7 +84,7 @@ session_start();
 								<div class="img-row2" style="margin-top: 20px;">
 									<div class="img col-md-4"><a href="adminaddambulence.php"><img src="5.png" style="max-height: 100%;max-width: 100%;margin-bottom: 15%;" alt="" /></a></div>
 									<div class="img col-md-4"><a href="request.php"><img src="images\request.jpg" style="max-height: 80%;max-width: 80%;margin-top: 35%;margin-left: 18%;" alt="" /></a><label style="margin-top: 7%;margin-left:40%;font-size:large" for="">Requests</label></div>
-
+									<div class="img col-md-4"><a href="addelidetails.php"><img src="3.png" style="max-height: 100%;max-width: 100%;margin-bottom: 15px;margin-top:45%;margin-left:35px;" alt="" /></a></div>
 								</div>
 
 							</div>

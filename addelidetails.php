@@ -68,14 +68,11 @@ session_start();
             <h2><b>Delivery Guy Details</b></h2>
                 <a href="addelivery.php"><h5>Add delivery guy</h5></a>
                 <br>
-			  
-                <br>
-                <br>
                 
                 
                 <br>
                 
-              <table class="table table-striped text-center">
+                <table class="table table-striped text-center">
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -98,8 +95,9 @@ session_start();
                         $resul = mysqli_query($con,"SELECT * FROM delivery;") or die("Failed to fetch".mysql_error());
                     
                     while( $row = mysqli_fetch_assoc( $resul) ){
-                                    echo "<tr><td>{$row['deId']}</td><td>{$row['deName']}</td><td>{$row['dePass']}</td><td>{$row['deMobile']}</td><td>{$row['deRegion']}</td></tr>\n";
+                                    echo "<tr><td>{$row['deId']}</td><td>{$row['deName']}</td><td>{$row['dePass']}</td><td>{$row['deMobile']}</td><td>{$row['deRegion']}</td><td><a href='editdeli.php' ><h5>Edit</h5></a></td></tr>\n";
                                         }
+                    
                     ?>
                   </tbody>
                 </table>

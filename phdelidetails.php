@@ -66,8 +66,6 @@ session_start();
             
 			<form class="col-md-4 col-sm-offset-4 text-center"  method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" >
             <h2><b>Delivery Guy Details</b></h2>
-                <a href="addelivery.php"><h5>Add delivery guy</h5></a>
-                <br>
 			  
                 <br>
                 <br>
@@ -106,8 +104,6 @@ session_start();
                 <br>
                 <br>
                 <br>
-                <input type="text" name="del" placeholder="enter id or name">
-                <button type="submit">Delete a delivery guy</button>
 			  
 			  <br>
 			</form>

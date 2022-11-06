@@ -46,7 +46,7 @@
 		
 	</div>
 	
-	<div class="main-area"> 
+	<div class="main-area">
 		
 		
 		
