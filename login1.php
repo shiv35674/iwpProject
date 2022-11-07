@@ -66,7 +66,7 @@
             <br>
             
 			<form class="col-md-4 col-sm-offset-4 text-center" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" style="margin: 2%;background-color: #97caef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.8;filter: alpha(opacity=60);text-align: center;margin-left: 35%;padding-top: 1%;padding-bottom: 2%;box-shadow: 0px 0px 10px #989ba0;">
-      <h1 style="margin-bottom:25px;font-weight:bold;color:black;" >Pharmacist</h1>
+      <h1 style="margin-bottom:25px;font-weight:bold;color:black;" >Admin</h1>
       <hr style="border-top: 1px solid black;">
 			  <div class="form-group center" >
 				<label for="uname" style="margin-top:30px;font-weight: bold;color: #000000;margin-bottom:15px;margin:auto;font-size:30px;">Username:</label>
@@ -81,6 +81,7 @@
 			  <button type="submit" class="btn btn-default" style="font-weight: bold;color: #000000;">Login</button>
         <br><br>
         <a href="login.php" style="font-weight: bold;color: black;">Login as Customer</a><br>
+        <a href="login2.php" style="font-weight: bold;color: black;">Login as Pharmacist</a><br>
 			  <br>
 			  <label style="font-weight: bold;color: #000000;">Don't have an account? Sign Up!</label>
 			  <br>

@@ -114,6 +114,7 @@ textarea:hover::-webkit-scrollbar-thumb{
   background: #fff;
   transition: transform 0.3s ease;
   width: calc(100% / 2 - 10px);
+  margin-left: 2px;
 }
 .buttons button:active{
   transform: scale(0.95);

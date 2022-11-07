@@ -44,7 +44,7 @@ session_start();
 				<a href="index.php"><img src="img/admin.png" style="max-height: 60px;max-width: 60px;margin-left: 50%;opacity:1.0;"></a>
 				<div class="menu" style="margin-left: auto;margin-right:25px;margin-top: 1.5%;">
 					<ul class="list-unstyled list-inline pull-right">
-						<li><a href="index.php"><span style="font-size:25px;background-color:#a1d6e2;padding:10px;border-radius:15px;color:black;">Home</span></a></li>
+						<li><a href="#"><span style="font-size:25px;background-color:#a1d6e2;padding:10px;border-radius:15px;color:black;">Home</span></a></li>
 						<li><a href="index.php"><span style="font-size:25px;background-color:#a1d6e2;padding:10px;border-radius:15px;color:black;">Logout</span></a></li>
 
 					</ul>
@@ -76,15 +76,15 @@ session_start();
 						<div class="port-bottom">
 							<div class="container">
 								<div class="img-row1" style="margin-bottom: 20px;margin-top:20px;">
-									<div class="img col-md-4"><a href="adod.php"><img src="1.png" style="max-height: 100%;max-width: 100%;margin-bottom: 15px;" alt="" /></a></div>
-									<div class="img col-md-4"><a href="adsearchuser.php"><img src="2.png" style="max-height: 100%;max-width: 100%;margin-bottom: 15px;" alt="" /></a></div>
-									<div class="img col-md-4"><a href="adphar.php"><img src="4.png" style="max-height: 70%;max-width: 100%;margin-bottom: 10%;" alt="" /></a></div>
+									<div class="img col-md-4"><a href="adod.php"><img src="1.png" style="max-height: 60%;max-width: 100%;margin-bottom: 15px;" alt="" /></a></div>
+									<div class="img col-md-4"><a href="adsearchuser.php"><img src="2.png" style="max-height: 60%;max-width: 100%;margin-bottom: 15px;" alt="" /></a></div>
+									<div class="img col-md-4"><a href="adphar.php"><img src="4.png" style="max-height: 60%;max-width: 100%;margin-bottom: 10%;" alt="" /></a></div>
 
 								</div>
 								<div class="img-row2" style="margin-top: 20px;">
-									<div class="img col-md-4"><a href="adminaddambulence.php"><img src="5.png" style="max-height: 100%;max-width: 100%;margin-bottom: 15%;" alt="" /></a></div>
-									<div class="img col-md-4"><a href="request.php"><img src="images\request.jpg" style="max-height: 80%;max-width: 80%;margin-top: 35%;margin-left: 18%;" alt="" /></a><label style="margin-top: 7%;margin-left:40%;font-size:large" for="">Requests</label></div>
-									<div class="img col-md-4"><a href="addelidetails.php"><img src="3.png" style="max-height: 100%;max-width: 100%;margin-bottom: 15px;margin-top:45%;margin-left:35px;" alt="" /></a></div>
+									<div class="img col-md-4"><a href="adminaddambulence.php"><img src="5.png" style="max-height: 60%;max-width: 100%;margin-bottom: 15%;" alt="" /></a></div>
+									<div class="img col-md-4"><a href="request.php"><img src="images\request.jpg" style="max-height: 60%;max-width: 80%;margin-top: 35%;margin-left: 18%;" alt="" /></a><label style="margin-top: 7%;margin-left:40%;font-size:large" for="">Requests</label></div>
+									<div class="img col-md-4"><a href="addelidetails.php"><img src="3.png" style="max-height: 60%;max-width: 100%;margin-bottom: 15px;margin-top:45%;margin-left:35px;" alt="" /></a></div>
 								</div>
 
 							</div>

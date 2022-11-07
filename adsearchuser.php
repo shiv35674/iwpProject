@@ -69,7 +69,7 @@ session_start();
         <div class="login" style="margin-right:20%">
             <form class="col-md-6 col-sm-offset-4 text-center">
                 <h2 style="color:black;"><b>List of Users</b></h2>
-
+                <hr style="border-top: 1px solid black;width:550px;">
                 <br>
                 <br>
                 <!-- <style>

@@ -3,7 +3,8 @@ const wrapper = document.querySelector(".wrapper"),
   fileInp = form.querySelector("input"),
   infoText = form.querySelector("p"),
   closeBtn = document.querySelector(".close"),
-  copyBtn = document.querySelector(".copy");
+  copyBtn = document.querySelector(".copy"),
+  searchBtn = document.querySelector("search");
 
 function fetchRequest(file, formData) {
   infoText.innerText = "Scanning QR Code...";

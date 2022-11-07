@@ -52,8 +52,8 @@
 		
 		
 		<div class="login"> 
-			<form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;background-color: #a1d6e2;border: 1px #e3e8ef;border-radius: 5%; opacity:0.6;filter: alpha(opacity=60);text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;box-shadow: 0px 0px 10px #989ba0;" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" >
-            <h1 style="margin-left: 5%;font-weight: bold;font-size:45px;margin-bottom:25px;">Admin Panel</h1>
+			<form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;background-color: #97caef;border: 1px #e3e8ef;border-radius: 5%; opacity:0.6;filter: alpha(opacity=60);text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;box-shadow: 0px 0px 10px #989ba0;" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" >
+            <h1 style="margin-left: 5%;font-weight: bold;font-size:45px;margin-bottom:25px;">Add Ambulance</h1>
 					<hr style="border-top: 1px solid black;">       
 			  <div class="form-group center">
 				<label for="text">Hospital Name:</label>
@@ -62,6 +62,10 @@
                 <div class="form-group center">
 				    <label for="text">Hospital Address:</label>
 				    <input type="text" class="form-control" id="hospitalAddress" name="hAddress" style="width:50%;margin-left: 24%">
+			  </div>
+			  <div class="form-group center">
+				    <label for="text">Ambulance Number:</label>
+				    <input type="tel" class="form-control" id="hospitalAddress" name="hnum" style="width:50%;margin-left: 24%">
 			  </div>
                 <div class="form-group center">
 				    <label>Region:</label>
@@ -87,6 +91,7 @@
             if ($_SERVER["REQUEST_METHOD"] == "POST"){
                 $hName=$_POST["hName"];
 	            $hAddress=$_POST["hAddress"];
+				$hnum=$_POST["hnum"];
                 $selected_val = $_POST['Region'];  // Storing Selected Value In Variable
                 
 	            $conn=mysqli_connect("localhost","root","","medicineguide");
@@ -96,7 +101,7 @@
 	               else
 		              //echo "Connected successfully <br>";
 	
-	           $sql="insert into ambulance(hospitalAddress,amRegion,hospitalName) values('".$hAddress."', '".$selected_val."', '".$hName."');";
+	           $sql="insert into ambulance(hospitalAddress,amRegion,hospitalName,number) values('".$hAddress."', '".$selected_val."', '".$hName."','".$hnum"');";
 	           $result= mysqli_query($conn,$sql)or die(mysqli_error($conn));
 	                   if($result){
 		                  //header("Location:index.php");

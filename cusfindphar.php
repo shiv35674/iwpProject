@@ -61,7 +61,7 @@ session_start();
 
 
         <div class="">
-            <h2 class="text-center">Patient's Panel - Find Pharmacy</h2>
+            <h2 class="text-center">Find Pharmacy</h2>
                 <hr style="border-top: 1px solid black;width:550px;">
 <!--                <label style="margin-left:40px;">User Name<br><?php echo $_SESSION["uname"];?></label>-->
 

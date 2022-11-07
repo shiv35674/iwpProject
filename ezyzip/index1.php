@@ -21,11 +21,10 @@ $current_url = urlencode($url="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_
 <h1 align="center">Medicines</h1>
 <br>
 <div style="margin-left: 550px;">
-<input type="text" name="" placeholder="Search Medicine" style="width:200px;margin-right:10px;height:25px;"><button type="submit" onclick="window.location.href='index1.php'">Search</button>
+<input type="text" name="" placeholder="Search Medicine" style="width:200px;margin-right:10px;height:25px;"><button type="submit">Search</button>
 </div>
 <br>
 <br>
-<!-- View Cart Box Start -->
 <?php
 if(isset($_SESSION["cart_products"]) && count($_SESSION["cart_products"])>0)
 {
@@ -65,25 +64,21 @@ if(isset($_SESSION["cart_products"]) && count($_SESSION["cart_products"])>0)
 
 }
 ?>
-<!-- View Cart Box End -->
 
-
-<!-- Products List Start -->
 <?php
 $results = $mysqli->query("SELECT product_code, product_name, product_desc, product_img_name, price FROM products ORDER BY id ASC");
 if($results){ 
 $products_item = '<ul class="products">';
 //fetch results set as object and output HTML
-while($obj = $results->fetch_object())
-{
+
 $products_item .= <<<EOT
 	<li class="product">
 	<form method="post" action="cart_update.php">
-	<div class="product-content"><h3>{$obj->product_name}</h3>
-	<div class="product-thumb"><img src="images/{$obj->product_img_name}" width="100px"></div>
-	<div class="product-desc">{$obj->product_desc}</div>
+	<div class="product-content"><h3>Paracetamol</h3>
+	<div class="product-thumb"><img src="images/paracetamol.jpg" width="100px"></div>
+	<div class="product-desc>Pain killer for pain and high temperatures</div>
 	<div class="product-info">
-	Price {$currency}{$obj->price} 
+	Price ₹ 400.30
 	
 	<fieldset>
 
@@ -94,7 +89,7 @@ $products_item .= <<<EOT
 	</label>
 	
 	</fieldset>
-	<input type="hidden" name="product_code" value="{$obj->product_code}" />
+	<input type="hidden" name="product_code" value="PD1004" />
 	<input type="hidden" name="type" value="add" />
 	<input type="hidden" name="return_url" value="{$current_url}" />
 	<div align="center"><button type="submit" class="add_to_cart">Add</button></div>
@@ -105,9 +100,9 @@ EOT;
 }
 $products_item .= '</ul>';
 echo $products_item;
-}
+
 ?>    
 <!-- Products List End -->
-<button style="margin-left:350px;margin-top:15px;"><a href="../cushome.php" style="text-decoration:none;color:white;">Go back</a></button>
+<button style="margin-left:350px;margin-top:15px;"><a href="index.php" style="text-decoration:none;color:white;">Go back</a></button>
 </body>
 </html>

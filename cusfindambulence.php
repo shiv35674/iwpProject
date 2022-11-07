@@ -33,7 +33,7 @@ session_start();
 </head>
 
 
-<body class="cusfamb">
+<body class="">
 
     <div class="header-area" style="margin:auto;">
         <div class="header-top">
@@ -62,7 +62,7 @@ session_start();
 
         <div class="">
             <form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;" method="post" action=cusfindambulence2.php >
-                <h2>Patient's Panel - Find Ambulence</h2>
+                <h2>Find Ambulence</h2>
                 <hr style="border-top: 1px solid black;">
                
 

@@ -33,7 +33,7 @@ session_start();
 </head>
 
 
-<body class="cusfamb">
+<body class="">
 
     <div class="">
         <div class="header-top">
@@ -62,8 +62,8 @@ session_start();
 
         <div class="">
             <form class="col-md-4 col-sm-offset-4 text-center" style="margin: 2%;text-align: center;margin-left: 35%;padding-top: 2%;padding-bottom: 2%;" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" >
-                <h2>Patient's Panel - Find Ambulence</h2>
-
+                <h2>Find Ambulence</h2>
+                <hr style="border-top: 1px solid black;">
                 <br>
                
 
@@ -72,7 +72,7 @@ session_start();
                 <div class="form-group center">
                     
                 <div class="form-group center">
-                    <input style="width:250px;height:35px;background:transparent;border:1px solid black;" type="text" name="search" placeholder="Search Pharmacy">
+                    <input style="width:250px;height:35px;background:transparent;border:1px solid black;" type="text" name="search" placeholder="Search Ambulance">
 
                     <button type="submit" style="background:#56CDF0;border:1px solid #56CDF0;padding:6px 20px;border-radius:5px;" class="btn btn-default">Search</button>
                     <br>

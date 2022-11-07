@@ -37,7 +37,7 @@ session_start();
 				<div class="menu col-md-5" style="margin-left: 20%;margin-top: 2%"> 
 					<ul class="list-unstyled list-inline pull-right">
 						<li><a href="#">Home</a></li>
-						<li><a href="cart/index.php">Cart</a></li>
+						<li><a href="ezyzip\index.php">Cart</a></li>
 						<li><a href="index.php">Logout</a></li>
 						
 					</ul>
